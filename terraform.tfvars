@@ -1,0 +1,9 @@
+aws_region         = "ap-south-1"
+vpc_cidr           = "172.19.0.0/16"
+vpc_name           = "Functions-vpc"
+key_name           = "mumbai"
+azs                = ["ap-south-1a", "ap-south-1b", "ap-south-1c"]
+public_cidr_block  = ["172.19.1.0/24", "172.19.2.0/24", "172.19.3.0/24", "172.19.4.0/24", "172.19.5.0/24"]
+private_cidr_block = ["172.19.10.0/24", "172.19.20.0/24", "172.19.30.0/24", "172.19.40.0/24", "172.19.50.0/24"]
+environment        = "QA"
+ingress_value      = [80, 8080, 443, 8443, 22, 3306, 9000]
